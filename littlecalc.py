@@ -51,7 +51,7 @@ def calculator():
 			num_list.append(populate)
 			
 			keep_going=partial(askme, type=str, errmsg='must be either \'y\' or \'n\'.')
-			keep_populating =  keep going('want to keep inserting data (aka numbers)?')
+			keep_populating =  keep_going('want to keep inserting data (aka numbers)?')
 			if keep_populating != 'y':
 				break
 		
